@@ -1,0 +1,11 @@
+.{
+    .name = "med",
+    .version = "0.0.1",
+
+    .dependencies = .{
+        .zig_linux_x86_64 = .{
+            // NOTE: not working yet, zig doesn't support the MIME type? also it doesn't have a build.zig
+            .url = "https://ziglang.org/download/0.11.0/zig-linux-x86-0.11.0.tar.xz",
+        },
+    },
+}
